@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".farmer.AddFarmer">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/farmerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Farmer Name: John Smith" />
+
+            <TextView
+                android:id="@+id/farmerCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/farmerName"
+                android:text="Farmer Code: N784780" />
+
+            <TextView
+                android:id="@+id/cropCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/farmerCode"
+                android:text="Crop Code: C893832" />
+
+            <TextView
+                android:id="@+id/cropNameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cropCode"
+                android:text="Crop Name" />
+
+            <EditText
+                android:id="@+id/cropNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userNameLabel"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/provinceLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cropNameInput"
+                android:text="Province" />
+
+            <EditText
+                android:id="@+id/provinceInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/provinceLabel"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/districtLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/provinceInput"
+                android:text="District" />
+
+            <EditText
+                android:id="@+id/districtInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/districtLabel"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/areaLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/districtInput"
+                android:text="Area" />
+
+            <EditText
+                android:id="@+id/areaInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/areaLabel"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/gramaNiladhariAreaLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/areaInput"
+                android:text="Grama Niladhari Area" />
+
+            <EditText
+                android:id="@+id/gramaNiladhariAreaInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gramaNiladhariAreaLabel"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/sizeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gramaNiladhariAreaInput"
+                android:text="Size(ac/ha)" />
+
+            <EditText
+                android:id="@+id/sizeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sizeLabel"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/fieldTypeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sizeInput"
+                android:text="Filed Type" />
+
+            <EditText
+                android:id="@+id/fieldTypeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fieldTypeLabel"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/harvestPredictionLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fieldTypeInput"
+                android:text="Harvest Prediction" />
+
+            <EditText
+                android:id="@+id/harvestPredictionInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/harvestPredictionLabel"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/predictionTimeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/harvestPredictionInput"
+                android:text="Prediction Time(mm/yyyy)" />
+
+            <EditText
+                android:id="@+id/predictionTimeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/predictionTimeLabel"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:text="Save"
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:layout_below="@+id/predictionTimeInput" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

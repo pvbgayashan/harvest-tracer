@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "482939422221",
+    "firebase_url": "https://harvest-tracer.firebaseio.com",
+    "project_id": "harvest-tracer",
+    "storage_bucket": "harvest-tracer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482939422221:android:ca6f842afa33f8ba30b744",
+        "android_client_info": {
+          "package_name": "com.harvesttracer.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482939422221-b29lcoe7java7804ol2m1jvi4224ns2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Wr3LCNJrBfYfLvT7FxJwvk8ASkWZYXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482939422221-b29lcoe7java7804ol2m1jvi4224ns2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
