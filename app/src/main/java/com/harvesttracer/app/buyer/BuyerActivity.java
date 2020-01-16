@@ -1,9 +1,10 @@
 package com.harvesttracer.app.buyer;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.harvesttracer.app.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BuyerActivity extends AppCompatActivity {
 

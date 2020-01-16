@@ -1,12 +1,13 @@
 package com.harvesttracer.app.farmer;
 
 import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.harvesttracer.app.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class FarmerActivity extends AppCompatActivity {
 
